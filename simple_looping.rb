@@ -13,8 +13,8 @@ def loop_iterator(number_of_times)
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number..
-    if counter == number_of_times
-      break
+    
+      break if counter == number_of_times
   end
 end
 
